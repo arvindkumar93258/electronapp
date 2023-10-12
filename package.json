@@ -1,0 +1,22 @@
+{
+  "name": "electronapp",
+  "version": "0.0.1",
+  "description": "This is a practice app to learn electron",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dev:watch": "npx electron --trace-warning ."
+  },
+  "keywords": [
+    "react",
+    "electron",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.0.0",
+    "electronmon": "^2.0.2"
+  }
+}
