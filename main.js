@@ -12,12 +12,14 @@ function createWindow() {
 
     });
 
+    mainWindow.webContents.openDevTools();
+
     const startUrl = url.format({
         pathname: path.join(__dirname, 'index.html'),
         protocol: 'file'
     })
 
-    mainWindow.loadURL(startUrl);
+    mainWindow.loadURL("http://localhost:3000");
 }
 
 app.whenReady().then(createWindow);
